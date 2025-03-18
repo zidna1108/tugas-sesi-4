@@ -1,0 +1,76 @@
+#Operator aritamtika
+total_apel = 12
+jumlah_teman = 4
+apel_per_teman = total_apel / jumlah_teman
+print ("apel per teman:",apel_per_teman)
+
+tambah_apel = 8
+total_apel += tambah_apel
+print("total apel sekarang:",total_apel)
+
+
+
+#Operator perbandingan
+siti_tinggi = 160
+andi_tinggi = 165
+
+lebih_tinggi = "Andi" if andi_tinggi > siti_tinggi else "Siti"
+print(f"{lebih_tinggi} lebih tinggi")
+
+
+
+#Operator logika
+cuaca_cerah = True
+pr_selesai = True
+
+budi_bisa_bermain = cuaca_cerah and pr_selesai
+print("budi bisa bermain;",budi_bisa_bermain)
+
+
+
+#Operator bitwise
+a = 6
+b = 3
+
+print("AND:", (a & b))
+print("OR:", (a | b))
+print("XOR:", (a ^ b))
+
+
+
+#Operator penugasan
+a = 6
+b = 3
+
+print("AND:", (a & b))
+print("OR:", (a | b))
+print("XOR:", (a ^ b))
+
+
+
+#Operator keanggotaan
+peserta = ["andi", "budi", "citra", "dewi"]
+print("apakah 'Eka' ada dalam daftar peserta?", 'Eka' in peserta)
+
+kalimat = "Saya suka belajar python"
+print("apakah kata 'python' ada dalam kalimat?", "python" in kalimat)
+
+
+
+#Operator identitas
+x = 10
+y = 10
+
+print("x dan y merujuk ke objek yang sama:", x is y)
+
+
+
+#Operator ternary
+angka1 = 25
+angka2 = 30
+maksimal = angka1 if angka1 > angka2 else angka2
+print("angka lebih besar:", maksimal)
+
+nilai = 80
+status = "Lulus" if nilai >= 70 else "Tidak Lulus"
+print("Status Kelulusan:", status)
